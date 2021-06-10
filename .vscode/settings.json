@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/iryab/.conda/envs/graphs/bin/python",
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true
+}
