@@ -142,7 +142,7 @@ if __name__ == '__main__':
 
     A = AttackGraph(G, networks, hosts)
 
-    initial_host = input('Введите IP-дарес начальной вершины: ')
+    initial_host = input('Введите IP-адрес начальной вершины: ')
     while not initial_host in [h.ip_addr for h in hosts]:
         print('Хост с таким адресом не найден в файле сетевой топологии!')
         print('Попробуйте еще раз')
